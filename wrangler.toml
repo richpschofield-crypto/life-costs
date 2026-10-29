@@ -1,0 +1,13 @@
+name = "life-costs"
+main = "worker.js"
+compatibility_date = "2026-10-24"
+send_metrics = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "life-costs"
+database_id = "local-dev"
+
+[triggers]
+crons = ["0 * * * *"]
+
